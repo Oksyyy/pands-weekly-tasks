@@ -3,7 +3,7 @@
  # WEEK 03 - weekly task comment
  For week 3, two programs were created: 
   1.  accounts.py - This program handles the main task, which involves generating an account number of a specified length (10 digits)
-  2.  accounts_extra.py - - This program addresses the extra task, which involves generating an account number of unspecified length 
+  2.  accounts_extra.py - This program addresses the extra task, which involves generating an account number of unspecified length 
  
  The task was completed using W3schools tutorials where I learned the following:
  - Slicing strings: [W3school](https://www.w3schools.com/python/python_strings_slicing.asp)
@@ -19,7 +19,7 @@ The task was completed primarely using week 4 lecture materials, with a focusg o
 
 Additional context on while loops was reviewed in a RealPython article: [RealPython](https://realpython.com/python-while-loop/)
 
-To print out numbers on the same line (I wasn't sure if it was a part of the weekly task or just unintended format of the provided example) - I referred to an article that explaind the use of end='' function: [GeeksforGeeks](https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/)
+To print out numbers on the same line (I wasn't sure if it was a part of the weekly task or just unintended format of the provided example) - I referred to an article that explaind the use of end='' function: [GeeksforGeeks](https://www.geeksforgeeks.org/gfact-50-python-end-parameter-in-print/).
 
 
  # WEEK 05 - weekly task comment
