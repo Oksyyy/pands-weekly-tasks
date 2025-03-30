@@ -39,3 +39,15 @@ For week 6, I read multiple articles and watched videos to understand the Newton
    - [Altcademy](https://www.altcademy.com/blog/how-to-square-root-in-python/#:~:text=The%20Newton%2DRaphson%20Method,-The%20Newton%2DRaphson&text=refine%20the%20guess%3A-,Start%20with%20an%20initial%20guess%20x0%20.,smaller%20than%20a%20predefined%20threshold.)
    - [HackerNoon](https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo)
 
+
+   # WEEK 07 - weekly task comment
+For the Week 7 task, I assumed that the moby-dick.txt file needed to be downloaded and available locally on the machine in order for the program to read the filename passed as an argument on the command line. The text file was downloaded from 
+[Project Gutenberg](https://www.gutenberg.org/ebooks/2701) and storred in the same directory as the program itself.
+
+The second part of the task involved passing a text file as an argument on the command-line. This has been implemented using sys.argv()function, which is a part of the sys module. A helpful explanation on how to use sys.argv and relevant examples can be found in the following article: [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-use-sys-argv-in-python/) For further information on the sys module, I also referred to the official [Python Documentation](https://docs.python.org/3/library/sys.html).
+
+To count the occurences of the charachter 'e', I used the count() function.  Information on this method is available under Python String Methods in [W3schools](https://www.w3schools.com/python/python_ref_string.asp#gsc.tab=0)
+
+While not directly related to the lecture topic, I also had to revisit the concept of initializing variables in Pyrthon in order to implement charachters count. I found this [Medium](https://medium.com/@esaiahsamuel710/python-variables-data-initialization-and-declaration-647719a470c2
+) article to be helpful in clarifying the topic.
+
