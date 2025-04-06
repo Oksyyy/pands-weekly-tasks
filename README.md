@@ -40,7 +40,7 @@ For week 6, I read multiple articles and watched videos to understand the Newton
    - [HackerNoon](https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo)
 
 
-   # WEEK 07 - weekly task comment
+ # WEEK 07 - weekly task comment
 For the Week 7 task, I assumed that the moby-dick.txt file needed to be downloaded and available locally on the machine in order for the program to read the filename passed as an argument on the command line. The text file was downloaded from 
 [Project Gutenberg](https://www.gutenberg.org/ebooks/2701) and storred in the same directory as the program itself.
 
@@ -51,3 +51,9 @@ To count the occurences of the charachter 'e', I used the count() function.  Inf
 While not directly related to the lecture topic, I also had to revisit the concept of initializing variables in Pyrthon in order to implement charachters count. I found this [Medium](https://medium.com/@esaiahsamuel710/python-variables-data-initialization-and-declaration-647719a470c2
 ) article to be helpful in clarifying the topic.
 
+
+# WEEK 08 - weekly task comment
+The task was comlited primarely using lecture materials as a reference. To create a normal distribution for the histogram, I used the numpy.random.normal() function. For guidance and examples, I referred to [W3schools](https://www.w3schools.com/python/numpy/numpy_random_normal.asp)
+
+To defined the function h(x)=x**3, I chose to use NumPy's linspace() function to generate a range of values. I found the following [Medium article](https://ogre51.medium.com/python-range-numpy-arange-and-numpy-linspace-17235c629710) helpful in comparing different approaches. For further understanding of how linspace() works, I also referred to this
+[DataCamp tutorial](https://www.datacamp.com/tutorial/how-to-use-the-numpy-linspace-function).
