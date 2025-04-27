@@ -15,11 +15,12 @@ try:
     # We assume a user will pass the text file name as a second argument when calling a program
 
     def find_e(filename, char):
-    # Create a function to count the number of occurrences of a characters in a file
+    # Create a function to count the number of occurrences of a character in a file
+    # Pass the filename and character to be counted as arguments
 
         with open(filename, 'rt') as f:
         # open a file in read mode
-        # with patter ensures the file is automatically closes after reading
+        # "with" pattern ensures the file is automatically closes after reading
         
             total_count = 0
             # initiate total_count variable, which will sum the number of occurences of the character in the file 
@@ -33,13 +34,16 @@ try:
                 
                 total_count = total_count + count_e
                 # update total_count variable with the new count of 'char' from the current file
+        
         return total_count
-        # as a result return the total count of 'char' from the entire file
+        # return the total count of 'char' from the entire file
 
     char = 'e'
     # assign a variable 'char' to 'e' to be used as part of find_e function
+    
     how_many_e = find_e(filename, char)
     # call find_e() function and store the result in how_many_e
+   
     print(how_many_e)
     # print the final result
 
