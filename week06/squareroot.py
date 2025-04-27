@@ -9,7 +9,7 @@ def sqrt(number):
     # initial guess of square root of a number would be the number itself
     
     next_guess = (guess + (number / guess ))/2
-    # calculate next (better) guess using Newton's method fomula
+    # calculate next (better) guess using Newton's method formula
 
     threshold = 1e-10
     # set a very small threshold that will determine when the comparison of guess and next better guess will stop
@@ -17,13 +17,13 @@ def sqrt(number):
     while abs(guess**2 - number) >= threshold:
     # use while loop to repeatedly execute square root approximation 
     # continue until the difference between the square of guess and number (user input) are within the threshold 
-    # use abs() to ensure the difference remain positive
+    # use abs() function to ensure the difference remain positive
 
         guess = next_guess
-        # if while loop condition is not met, update variable guess to be equal to next_guess
+        # if while loop condition is not met, update the variable guess to be equal to next_guess
 
         next_guess = (guess + (number / guess ))/2
-        # execute next_guess calculation using updated variable guess within the Newton's frmula
+        # execute next_guess calculation using updated variable guess within the Newton's formula
 
     # continue finding a closer approximation of square root until the while loop condition is met
     # when it's reached a point of next_guess being within the threshold, stop while loop execution    
@@ -32,7 +32,7 @@ def sqrt(number):
     # return guess (square root value) to the main program 
       
 number = float(input("Please enter a positive number: ")) 
-# ask the user to enter a number 
+# ask the user to enter a number using input() functio
 # convert the user input from a string to a floating-point number for accurate calculations
 
 num = sqrt(number) 
