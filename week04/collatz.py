@@ -3,25 +3,28 @@
 # If the integer is even, the program divides it by 2. If it's odd, the program multiplies it by 3 and adds 1
 # Author: Oksana Abrosimova
 
-
 integer = int(input('Please enter a positive integer: ')) 
-# prompts a user to enter a positive integer
+# prompt a user to enter a positive integer using input() function
+# use int() to convert the input into an integer. Input is always a string
 
 while integer != 1: 
-# using while loop to iterate integer evaluation while it's not 1
-# when integer == 1, the while loop condition won't be met and the program stops
+# set a while loop to perform required calculations as long as the integer is not equal to 1
+# when the current integer value equals 1, the while loop condition won't be met and the program stops (per task description)
     
     print(integer, end = ' ') 
-    # printing the current integer on the same line, separated by spaces (using end = '' function)
+    # print the current integer on the same line, separated by spaces (using end = '' function)
     
     if integer % 2 == 0:
-    # using if function and % operator to check if integer is an even number
+    # use if / else statement to evaluate if the integer is an even or an odd number
+    # use modulo operator % to check if the integer is an even number
+    # if the remainder of the integer divided by 2 is 0, then the integer is even
         
         integer = integer // 2
-        # if integer is an even number, telling the program to update it by dividing by 2 as per the task instructions
+        # if integer is the even number, update "integer" varible by dividing the integer by 2 (per the task instructions)
     
     else:
-    # if integer is not an even number as checked in line 17, then it's an odd number
+    # use else block to handle odd numbers
+    # if integer is not an even number as checked within if statement, then it's an odd number
         
         integer = (integer * 3) + 1
-        # if integer is an odd number, telling the program to update it by multipliying it by 3 and ading 1 as per the task instructions
+        # update "integer" varible by multipliying it by 3 and adding 1 (per the task instructions)
