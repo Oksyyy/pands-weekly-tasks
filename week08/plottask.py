@@ -21,12 +21,11 @@ array = np.random.normal(loc=mean, scale=std_dev, size=number_of_val)
 # Use linspace() function to generate evenly spaced values for the x-axis
 # linspace() takes 3 parameters: start, stop (inclusive), num (number of points to generate)
 xpoints = np.linspace(1,10,100)
-# y-values equal x traised to the power of 3
+# y-values equal x raised to the power of 3
 ypoints = xpoints ** 3
 
-
 # Plot a histogram using hist() method within matplotlib library
-# alpha sets transparency, color specifies the hist color, lable assigns the lagend label
+# alpha sets transparency, color specifies the hist color, label assigns the legend label
 plt.hist(array, alpha=0.6, color='blue', label='Normal Distribution')
 
 # Plot h(x)=x^3 function
